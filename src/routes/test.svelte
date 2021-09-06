@@ -32,9 +32,9 @@
 						<div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
 							<h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
 								<span class="block"> Calculate your waste </span>
-								<span class="block text-indigo-500"> reduce the price of your energy </span>
+								<span class="block text-indigo-500"> Reduce the price of your energy </span>
 							</h2>
-							<p class="text-xl mt-4 max-w-md mx-auto text-gray-400">click the next button</p>
+							<p class="text-xl mt-4 max-w-md mx-auto text-gray-400">Click to Start!</p>
 						</div>
 					</div>
 				{:else if count == 1}
@@ -42,7 +42,7 @@
 						<h1
 							class="text-3xl text-center p-6 font-extrabold text-black dark:text-white sm:text-4xl"
 						>
-							Your montly KwH
+							Your Monthly Energy Usage (KwH)
 						</h1>
 						<input
 							id="rounded-email"
@@ -56,7 +56,7 @@
 						<h1
 							class="text-3xl text-center p-6 font-extrabold text-black dark:text-white sm:text-4xl"
 						>
-							Your montly electricity price
+							Your Montly Electricity Price
 						</h1>
 						<input
 							id="rounded-email"
@@ -70,25 +70,25 @@
 						<h1
 							class="text-3xl text-center p-6 font-extrabold text-black dark:text-white sm:text-4xl"
 						>
-							Your house rooms
+							Number of Rooms in Your House
 						</h1>
 						<select
 							class="m-auto w-96 text-gray-700 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
 							name="type"
 						>
 							<option value=""> Select an option </option>
-							<option value="1 and 2 Rooms"> 1 and 2 Rooms </option>
+							<option value="1 and 2 Rooms"> 1 or 2 Rooms </option>
 							<option value="3 Rooms"> 3 Rooms </option>
 							<option value="4 Rooms"> 4 Rooms </option>
 							<option value="5 Rooms"> 5 Rooms </option>
-							<option value="condominium"> Condominium </option>
+							<option value="condominium"> 6+ Rooms </option>
 						</select>
 					</div>
 				{:else if count == 4}
 					<div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
 						<h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-							We have your data, click the button to send it and contact with an asesor for the
-							instalation.
+							Nice! Click below to send your responses and talk with an assessor for the
+							installation of renewable energy!
 						</h2>
 					</div>
 				{/if}
