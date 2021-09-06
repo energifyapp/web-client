@@ -19,9 +19,9 @@
 		<div class="bg-white dark:bg-gray-800 overflow-hidden relative lg:flex lg:items-center">
 			<div class="w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
 				<h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-					<span class="block"> Save the planet </span>
+					<span class="block"> Welcome to Energify. We’re here to help you make change in a sustainable way that benefits both you and the environment.  </span>
 				</h2>
-				<p class="text-md mt-4 text-gray-400">Motivational message</p>
+				<p class="text-md mt-4 text-gray-400">Our AI will help you save both money and the environment by tracking and predicting your energy usage. Based on that, we’ll create a personalized profile based on what a normal household would spend on the same costs.</p>
 			</div>
 			<div class="flex items-center gap-8 p-8 lg:p-24">
 				<img
