@@ -21,7 +21,6 @@
 				<h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
 					<span class="block"> Welcome to Energify. We’re here to help you make change in a sustainable way that benefits both you and the environment.  </span>
 				</h2>
- patch-1
 				<p class="text-md mt-4 text-gray-400">
 					"The greatest threat to our planet is the belief that someone else will save it"
 				</p>
