@@ -6,8 +6,11 @@
 </script>
 
 <svelte:head>
-    <title>Energify</title>
-    <link rel="icon" href="https://cdn.discordapp.com/attachments/883374253989298176/883784525421871184/energify-logos_black.png" />
+	<title>Energify</title>
+	<link
+		rel="icon"
+		href="https://cdn.discordapp.com/attachments/883374253989298176/883784525421871184/energify-logos_black.png"
+	/>
 </svelte:head>
 
 <Header />
@@ -18,9 +21,7 @@
 				<h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
 					<span class="block"> Save the planet </span>
 				</h2>
-				<p class="text-md mt-4 text-gray-400">
-					Motivational message
-				</p>
+				<p class="text-md mt-4 text-gray-400">Motivational message</p>
 			</div>
 			<div class="flex items-center gap-8 p-8 lg:p-24">
 				<img
@@ -68,9 +69,7 @@
 				<h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
 					Example
 				</h3>
-				<p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-					a lot of text
-				</p>
+				<p class="text-md  text-gray-500 dark:text-gray-300 py-4">a lot of text</p>
 			</div>
 			<div
 				class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800"
@@ -96,9 +95,7 @@
 				<h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
 					example
 				</h3>
-				<p class="text-md text-gray-500 dark:text-gray-300 py-4">
-					a lot of text
-				</p>
+				<p class="text-md text-gray-500 dark:text-gray-300 py-4">a lot of text</p>
 			</div>
 			<div
 				class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800"
@@ -124,13 +121,13 @@
 				<h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
 					example
 				</h3>
-				<p class="text-md  text-gray-500 dark:text-gray-300 py-4">
-					a lot of text
-				</p>
+				<p class="text-md  text-gray-500 dark:text-gray-300 py-4">a lot of text</p>
 			</div>
 		</div>
 	{:else}
 		<slot />
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<div class="elfsight-app-cdfba14e-c728-4c7e-8ce6-8a4cefd13e0c" />
 	{/if}
 </main>
 <Footer />
